@@ -1,7 +1,7 @@
 # Thinkboard - Note Taking Application
 
 ## Overview
-- Note taking application made using MERN stack. 
+- Note taking application built using MERN stack. 
 - Create, update and delete notes.
 - Built and tested REST API using Postman.
 - Implemented rate limiting using Upstash Redis.
