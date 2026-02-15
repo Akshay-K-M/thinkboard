@@ -6,7 +6,6 @@
 - Built and tested REST API using Postman.
 - Implemented rate limiting using Upstash Redis.
 - Responsive UI.
-- Deployed at https://thinkboard-p3mp.onrender.com/
 
 ## Technologies Used
 ### Frontend:
