@@ -11,8 +11,9 @@ const rateLimiter=async(req,res,next)=>{
         }
         next();
     }catch(error){
-        console.log("Rate limit error",error)
-        next(error);
+        console.log("Rate limit error (allowing request)", error)
+        // Fail open so app works if Redis/Upstash is down or misconfigured
+        next();
     }
 }
 
